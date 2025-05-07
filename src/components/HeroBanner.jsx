@@ -1,4 +1,5 @@
 import React from "react";
+
 function HeroBanner() {
   return (
     <div className="md:max-w-screen md:h-screen">

@@ -6,9 +6,11 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+import ParticlesBackground from "./components/ParticlesBackground";
 function App() {
   return (
     <>
+      <ParticlesBackground />
       <NavBar />
       <HeroBanner />
       <AboutMe />
