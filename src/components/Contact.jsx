@@ -1,7 +1,7 @@
 function Contact() {
   return (
-    <div className="md:max-w-screen">
-      <h1 className="contact">Contact me </h1>
+    <div className="contact bg-orange-100 md:max-w-screen md:h-screen">
+      <h1>Contact me </h1>
     </div>
   );
 }
