@@ -5,7 +5,7 @@ function ContactSection() {
   return (
     <div className="flex flex-col gap-8 justify-center items-center md:max-w-screen md:h-1/2 p-8">
       <h1 className="contact-title py-3">Contact me </h1>
-      <p className="text-wrap text-left text-base sm:text-lg md:text-xl">
+      <p className="text-wrap text-left text-base bg-white sm:text-lg md:text-xl max-w-3/4">
         I am currently open to entry-level software development roles and
         collaboration opportunities. Whether you're building something exciting
         or looking for a motivated team member, I would love to hear from you!

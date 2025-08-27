@@ -12,7 +12,7 @@ function Hobbies() {
         </p>
       </div>
 
-      <div className=" columns-1 md:columns-5 gap-4 object-cover overflow-hidden p-6 bg-white rounded-2xl">
+      <div className="columns-1 md:columns-5 gap-4 object-cover overflow-hidden p-6 bg-white rounded-2xl">
         {hobbyPhoto.map((hobby, index) => {
           return (
             <div
@@ -24,8 +24,8 @@ function Hobbies() {
                 alt={hobby.alt}
                 className="w-full object-cover rounded-2xl"
               />
-              <div className="absolute inset-0 bg-white bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-white text-center p-4 rounded-3xl">
-                <p className="text-sm text-black md:text-base">
+              <div className="absolute inset-0 bg-black opacity-0  group-hover:opacity-75 transition-opacity duration-300 flex items-center justify-center  p-4 rounded-2xl">
+                <p className="text-base text-white text-center">
                   {hobby.description}
                 </p>
               </div>

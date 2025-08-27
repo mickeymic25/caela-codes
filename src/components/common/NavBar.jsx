@@ -6,7 +6,7 @@ function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <>
-      <nav className="flex justify-between w-full fixed shadow-sm bg-white p-3">
+      <nav className="flex justify-between w-full z-50 fixed shadow-sm bg-white p-3">
         <div>
           {/*Logo*/}
           <img
@@ -14,9 +14,9 @@ function NavBar() {
             className="h-10"
           />
         </div>
-        {/*Menu*/}
-        <div className="hidden md:flex">
-          <ul className="md:gap-x-36 md: m-auto">
+        {/*Desktop Menu*/}
+        <div className="hidden md:flex md:pl-2">
+          <ul className="md:flex md:m-auto md:gap-x-36 ">
             <li>About Me</li>
             <li>Projects</li>
             <li>Hobbies</li>
@@ -36,7 +36,7 @@ function NavBar() {
 
       {/*Mobile menu dropdown*/}
       {isMobileMenuOpen && (
-        <div className="md:hidden justify-end fixed shadow-sm top-0 right-0 bg-white p-4">
+        <div className="z-50 md:hidden justify-end fixed shadow-sm top-0 right-0 bg-white p-4">
           <button onClick={() => setIsMobileMenuOpen(false)}>
             <IoMdClose />
           </button>
