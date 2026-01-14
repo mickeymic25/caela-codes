@@ -13,6 +13,7 @@ function App() {
     <>
       <ParticlesBackground />
       <NavBar />
+
       <HeroBanner />
       <AboutMe />
       <Projects />

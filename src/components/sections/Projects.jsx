@@ -3,7 +3,7 @@ import { projectDetails } from "../data/data.js";
 
 function Projects() {
   return (
-    <div className="projects md:max-w-screen p-4 flex flex-col bg-white">
+    <section id="projects" className="projects md:max-w-screen p-4 flex flex-col bg-white">
       <h1 className="projects-title flex justify-center py-3 ">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4 justify-items-center">
         <Card {...projectDetails[0]} />
@@ -13,7 +13,7 @@ function Projects() {
         <Card {...projectDetails[4]} />
         <Card {...projectDetails[5]} />
       </div>
-    </div>
+    </section>
   );
 }
 

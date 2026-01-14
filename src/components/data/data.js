@@ -6,8 +6,8 @@ import csslogo from "../../assets/logo-css-3-256.png";
 import javascriptlogo from "../../assets/logo-javascript-256.png";
 import reactlogo from "../../assets/react.png";
 import nextjslogo from "../../assets/next.js icon.jpg";
-import tailwindcsslogo from "../../assets/tailwind-css-256.png";
-import figma from "../../assets/figma-256.png";
+import tailwindcsslogo from "../../assets/tailwind-css.png";
+import figma from "../../assets/figma.png";
 import shadcn from "../../assets/shadcn-logo_svgstack_com_31341752776539.png";
 import wordpress from "../../assets/wordpress_PNG47-2811305630.png";
 import sydney from "../../assets/Sydney.jpg";
@@ -21,36 +21,79 @@ import greenwich from "../../assets/greenwich.jpg";
 import palaceroom from "../../assets/blenheim_palace_room.jpg";
 import canarywharf from "../../assets/canary wharf.jpg";
 import cablecar from "../../assets/cable car.JPG";
+import pulsepoint from "../../assets/pph.PNG";
+import quizquest from "../../assets/quizquest.PNG";
+import { FaGithub } from "react-icons/fa";
+import { FaDesktop } from "react-icons/fa";
+import vite from "../../assets/vite-icon.png";
+import elementor from "../../assets/elementor logo.png";
 
 export const projectDetails = [
   {
-    image: easyeats,
+    image: quizquest,
     title: "QuizQuest",
-    description: "QuizQuest is a dynamic quiz game",
+    description:
+      "A fast trivia game with points for correct answers and deductions for wrong ones",
     button: [
       {
-        text: "View Project",
+        icon: FaDesktop,
         link: "#",
       },
       {
-        text: "View Code",
+        icon: FaGithub,
         link: "#",
+      },
+    ],
+    tools: [
+      {
+        icon: javascriptlogo,
+        alt: "JavaScript icon",
+      },
+      {
+        icon: reactlogo,
+        alt: "React icon",
+      },
+      {
+        icon: nextjslogo,
+        alt: "Next.JS icon",
+      },
+      {
+        icon: tailwindcsslogo,
+        alt: "Tailwind CSS logo",
       },
     ],
   },
   {
-    image: easyeats,
+    image: pulsepoint,
     title: "PulsePoint Health",
     description:
-      "Chingu team project- Easy Eats is a single-page application designed to explore and order food",
+      "A responsive healthcare platform for browsing doctors and booking services",
     button: [
       {
-        text: "View Project",
+        icon: FaDesktop,
         link: "#",
       },
       {
-        text: "View Code",
+        icon: FaGithub,
         link: "#",
+      },
+    ],
+    tools: [
+      {
+        icon: javascriptlogo,
+        alt: "JavaScript icon",
+      },
+      {
+        icon: reactlogo,
+        alt: "React icon",
+      },
+      {
+        icon: nextjslogo,
+        alt: "Next.JS icon",
+      },
+      {
+        icon: tailwindcsslogo,
+        alt: "Tailwind CSS logo",
       },
     ],
   },
@@ -58,11 +101,25 @@ export const projectDetails = [
     image: easyeats,
     title: "Portfolio",
     description:
-      "Chingu team project- Easy Eats is a single-page application designed to explore and order food",
+      "A single-page application designed to explore and order food across the US.",
     button: [
       {
-        text: "View Code",
+        icon: FaGithub,
         link: "#",
+      },
+    ],
+    tools: [
+      {
+        icon: javascriptlogo,
+        alt: "JavaScript icon",
+      },
+      {
+        icon: reactlogo,
+        alt: "React icon",
+      },
+      {
+        icon: tailwindcsslogo,
+        alt: "Tailwind CSS logo",
       },
     ],
   },
@@ -70,15 +127,29 @@ export const projectDetails = [
     image: splitmate,
     title: "SplitMate",
     description:
-      "SplitMate is a group expense-splitting app built with React, Tailwind CSS, Firebase and designed to make sharing costs with friends simple and stress-free.",
+      "An group expense-splitting app designed to make sharing costs with friends simple and stress-free.",
     button: [
       {
-        text: "View Project",
+        icon: FaDesktop,
         link: "https://splitmate1.netlify.app/",
       },
       {
-        text: "View Code",
+        icon: FaGithub,
         link: "#",
+      },
+    ],
+    tools: [
+      {
+        icon: javascriptlogo,
+        alt: "JavaScript icon",
+      },
+      {
+        icon: reactlogo,
+        alt: "React icon",
+      },
+      {
+        icon: vite,
+        alt: "Vite icon",
       },
     ],
   },
@@ -86,15 +157,25 @@ export const projectDetails = [
     image: bfp,
     title: "Barnet Food Partnership Website",
     description:
-      "A user-friendly WordPress website built to connect Barnet residents with local food support services and raise awareness of the partnership’s work.",
+      "A user-friendly WordPress website built to connect Barnet residents with local food support services.",
     button: [
       {
-        text: "View Project",
+        icon: FaDesktop,
         link: "https://barnetfoodpartnership.org/",
       },
+    ],
+    tools: [
       {
-        text: "View Design",
-        link: "#",
+        icon: wordpress,
+        alt: "Wordpress logo",
+      },
+      {
+        icon: csslogo,
+        alt: "CSS logo",
+      },
+      {
+        icon: elementor,
+        alt: "elementor logo",
       },
     ],
   },
@@ -102,15 +183,33 @@ export const projectDetails = [
     image: easyeats,
     title: "EasyEats",
     description:
-      "Chingu team project- Easy Eats is a single-page application designed to explore and order food",
+      "EasyEats is a single-page application designed to explore and order food around the US.",
     button: [
       {
-        text: "View Project",
+        icon: FaDesktop,
         link: "https://easy-eats-cwi6.vercel.app/",
       },
       {
-        text: "View Code",
+        icon: FaGithub,
         link: "https://github.com/chingu-voyages/v50-tier2-team-13",
+      },
+    ],
+    tools: [
+      {
+        icon: javascriptlogo,
+        alt: "JavaScript icon",
+      },
+      {
+        icon: reactlogo,
+        alt: "React icon",
+      },
+      {
+        icon: nextjslogo,
+        alt: "Next.JS icon",
+      },
+      {
+        icon: tailwindcsslogo,
+        alt: "Tailwind CSS logo",
       },
     ],
   },

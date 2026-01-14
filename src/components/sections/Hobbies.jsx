@@ -1,9 +1,13 @@
+import { motion } from "framer-motion";
 import { hobbyPhoto } from "../data/data";
 
 function Hobbies() {
   return (
-    <div className=" bg-orange-100 md:max-w-screen md:h-screen p-4">
-      <div className="flex flex-col justify-center items-center flex-grow">
+    <section
+      id="hobbies"
+      className="flex flex-col bg-orange-100 md:max-w-screen lg:max-xl:h-screen gap-4 p-4"
+    >
+      <div className="container mx-auto flex flex-col justify-center items-center flex-grow">
         <h1 className="py-3">My Hobbies </h1>
         <p className="pb-2">
           Outside of coding, I’m a curious creator who loves to make, explore,
@@ -15,25 +19,33 @@ function Hobbies() {
       <div className="columns-1 md:columns-5 gap-4 object-cover overflow-hidden p-6 bg-white rounded-2xl">
         {hobbyPhoto.map((hobby, index) => {
           return (
-            <div
+            <motion.div
               key={index}
-              className="relative group p-1 break-inside-avoid overflow-hidden"
+              className="relative group p-1 break-inside-avoid overflow-hidden rounded-2xl"
             >
               <img
                 src={hobby.image}
                 alt={hobby.alt}
                 className="w-full object-cover rounded-2xl"
               />
-              <div className="absolute inset-0 bg-black opacity-0  group-hover:opacity-75 transition-opacity duration-300 flex items-center justify-center  p-4 rounded-2xl">
+              {/*Overlay*/}
+              <motion.div
+                className="absolute inset-0 bg-black/70 opacity-0  flex items-center justify-center p-1 md:p-4 rounded-2xl"
+                initial={{ opacity: 0 }}
+                whileHover={{ opacity: 1, scale: 1 }}
+                whileTap={{ opacity: 1, scale: 1 }}
+                whileFocus={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.3 }}
+              >
                 <p className="text-base text-white text-center">
                   {hobby.description}
                 </p>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 

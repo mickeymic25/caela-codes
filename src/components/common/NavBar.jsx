@@ -4,6 +4,8 @@ import { useState } from "react";
 
 function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const linkStyles =
+    "hover:border-[#e9a319] hover:border-b-3 active:border-[#e9a319] active:border-b-3 focus:border-[#e9a319] focus:border-b-3 ";
   return (
     <>
       <nav className="flex justify-between w-full z-50 fixed shadow-sm bg-white p-3">
@@ -17,10 +19,26 @@ function NavBar() {
         {/*Desktop Menu*/}
         <div className="hidden md:flex md:pl-2">
           <ul className="md:flex md:m-auto md:gap-x-36 ">
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Hobbies</li>
-            <li>Contact Me</li>
+            <li>
+              <a href="#about" className={linkStyles}>
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="#projects" className={linkStyles}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#hobbies" className={linkStyles}>
+                Hobbies
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className={linkStyles}>
+                Contact Me
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -41,10 +59,27 @@ function NavBar() {
             <IoMdClose />
           </button>
           <ul className="flex flex-col mt-1.5 space-y-4">
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Hobbies</li>
-            <li>Contact Me</li>
+            <li>
+              <a href="#about" className={linkStyles}>
+                About Me
+              </a>
+            </li>
+
+            <li>
+              <a href="#projects" className={linkStyles}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#hobbies" className={linkStyles}>
+                Hobbies
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className={linkStyles}>
+                Contact Me
+              </a>
+            </li>
           </ul>
         </div>
       )}
