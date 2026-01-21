@@ -1,5 +1,6 @@
-import { skillLogo } from "../data/data";
 import { motion } from "framer-motion";
+import { skillLogo } from "../data/data";
+
 function AboutMe() {
   return (
     <section
@@ -22,13 +23,13 @@ function AboutMe() {
               },
             }}
             viewport={{ once: true }}
-            className="text-base sm:text-lg md:text-xl md:w-3/5 p-8 border border-[#F1A661] bg-[#E9A319] space-y-8 rounded-tr-[5rem] rounded-bl-[5rem] text-left"
+            className="text-base sm:text-lg md:text-xl md:w-3/5 p-8   bg-[#FFE0BB]  space-y-8 rounded-tr-[5rem] rounded-bl-[5rem] text-left md:p-14"
           >
             <p>
               My journey into tech began with a curiosity about how websites
               worked and quickly grew into a passion for creating them myself. I
               was drawn to the way front-end development blends creativity with
-              problem-solving, and I’ve since built up strong skills in HTML,
+              problem-solving and I’ve since built up strong skills in HTML,
               CSS, JavaScript, React and WordPress. From sketching out user
               flows in Figma to coding responsive layouts with Tailwind CSS, I
               enjoy every step of bringing a digital idea to life.

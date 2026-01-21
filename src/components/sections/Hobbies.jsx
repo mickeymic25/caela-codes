@@ -14,6 +14,10 @@ function Hobbies() {
           and learn. Whether it’s arts and crafts, photography, or diving into a
           good book, I’m always finding new ways to stay inspired.
         </p>
+
+        <p className="md:hidden">
+          Click and hold on the image to find out more about he image!
+        </p>
       </div>
 
       <div className="columns-1 md:columns-5 gap-4 object-cover overflow-hidden p-6 bg-white rounded-2xl">

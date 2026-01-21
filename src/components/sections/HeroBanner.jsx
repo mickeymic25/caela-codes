@@ -16,8 +16,13 @@ function HeroBanner() {
 
   return (
     <div className="flex flex-col lg:flex-row-reverse sm:max-w-screen h-screen">
-      <div className="flex justify-center items-center lg:w-1/2">
-        <img src="/src/assets/headshot-placeholder.png" className="h-[300px]" />
+      <div className="flex justify-center items-center lg:w-1/2 p-0">
+        <img
+          src="/src/assets/headshot-test-1.png"
+          className="h-[300px] md:h-full w-auto
+          
+          "
+        />
       </div>
       <motion.div
         variants={heroBannerContainer}

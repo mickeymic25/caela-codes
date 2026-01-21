@@ -5,7 +5,7 @@ import htmllogo from "../../assets/logo-html-5-256.png";
 import csslogo from "../../assets/logo-css-3-256.png";
 import javascriptlogo from "../../assets/logo-javascript-256.png";
 import reactlogo from "../../assets/react.png";
-import nextjslogo from "../../assets/next.js icon.jpg";
+import nextjslogo from "../../assets/next.js icon.png";
 import tailwindcsslogo from "../../assets/tailwind-css.png";
 import figma from "../../assets/figma.png";
 import shadcn from "../../assets/shadcn-logo_svgstack_com_31341752776539.png";
@@ -299,8 +299,8 @@ export const hobbyPhoto = [
 
   {
     image: palaceroom,
-    description: "Bari beach in Italy",
-    alt: "Bari beach in Italy",
+    description: "Living room in Blenheim Palace",
+    alt: "Living room in Blenheim Palace",
   },
   {
     image: organ,

@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import React from "react";
 
-const Button = ({ children }) => {
+const Button = ({ children, ...props }) => {
   return (
     <motion.button
+      {...props}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 1.1 }}
       className="
