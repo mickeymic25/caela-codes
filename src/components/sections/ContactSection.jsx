@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 

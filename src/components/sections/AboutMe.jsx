@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { skillLogo } from "../data/data";
 
 function AboutMe() {
@@ -7,10 +7,9 @@ function AboutMe() {
       id="about"
       className=" bg-orange-100 md:max-w-screen lg:max-2xl:h-screen"
     >
-      {/*ABOUT ME TITLE*/}
       <div className="container mx-auto flex flex-col items-center gap-4 p-4">
         <h1 className="py-3">About Me</h1>
-        {/*ABOUT ME DETAILS*/}
+
         <div className="flex flex-col md:flex-row md:gap-4 lg:justify-center ">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
