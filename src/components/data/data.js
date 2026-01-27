@@ -27,21 +27,23 @@ import { FaGithub } from "react-icons/fa";
 import { FaDesktop } from "react-icons/fa";
 import vite from "../../assets/vite-icon.png";
 import elementor from "../../assets/elementor logo.png";
+import portfolio from "../../assets/portfolio_screenshot.png";
+import firebase from "../../assets/firebase.png";
 
 export const projectDetails = [
   {
     image: quizquest,
     title: "QuizQuest",
     description:
-      "A fast trivia game with points for correct answers and deductions for wrong ones",
+      "A fast trivia game with points for correct answers and deductions for wrong ones.",
     button: [
       {
         icon: FaDesktop,
-        link: "#",
+        link: "https://quizquest-app-micaela.vercel.app/",
       },
       {
         icon: FaGithub,
-        link: "#",
+        link: "https://github.com/mickeymic25/quiz-app",
       },
     ],
     tools: [
@@ -67,15 +69,15 @@ export const projectDetails = [
     image: pulsepoint,
     title: "PulsePoint Health",
     description:
-      "A responsive healthcare platform for browsing doctors and booking services",
+      "A responsive healthcare platform for browsing doctors and booking services.",
     button: [
       {
         icon: FaDesktop,
-        link: "#",
+        link: "https://pulsepoint-health-psi.vercel.app/",
       },
       {
         icon: FaGithub,
-        link: "#",
+        link: "https://github.com/mickeymic25/pulsepoint-health",
       },
     ],
     tools: [
@@ -98,10 +100,9 @@ export const projectDetails = [
     ],
   },
   {
-    image: easyeats,
-    title: "Portfolio",
-    description:
-      "A single-page application designed to explore and order food across the US.",
+    image: portfolio,
+    title: "Portfolio Website",
+    description: "A collection of projects showcasing ideas brought to life.",
     button: [
       {
         icon: FaGithub,
@@ -121,13 +122,17 @@ export const projectDetails = [
         icon: tailwindcsslogo,
         alt: "Tailwind CSS logo",
       },
+      {
+        icon: vite,
+        alt: "Vite icon",
+      },
     ],
   },
   {
     image: splitmate,
     title: "SplitMate",
     description:
-      "An group expense-splitting app designed to make sharing costs with friends simple and stress-free.",
+      "A group expense-splitting app designed to make sharing costs with friends simple and stress-free.",
     button: [
       {
         icon: FaDesktop,
@@ -135,7 +140,7 @@ export const projectDetails = [
       },
       {
         icon: FaGithub,
-        link: "#",
+        link: "https://github.com/chingu-voyages/v51-tier2-team-24",
       },
     ],
     tools: [
@@ -150,6 +155,10 @@ export const projectDetails = [
       {
         icon: vite,
         alt: "Vite icon",
+      },
+      {
+        icon: firebase,
+        alt: "Firebase icon",
       },
     ],
   },

@@ -51,7 +51,6 @@ function Cards({ image, title, description, button, tools }) {
               );
             })}
         </div>
-        {console.log("this is  a test")}
       </div>
     </motion.div>
   );

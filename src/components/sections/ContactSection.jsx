@@ -20,7 +20,7 @@ function ContactSection() {
           whileHover={{ scale: 1.5 }}
           whileTap={{ scale: 1.5 }}
           transition={{ type: "spring", stiffness: 300 }}
-          href="mailto:caelaminta@gmail.com"
+          href="mailto:"
           alt="e-mail envelope icon"
         >
           <FaEnvelope color="#E9A319" className="w-10 h-[100px]" />

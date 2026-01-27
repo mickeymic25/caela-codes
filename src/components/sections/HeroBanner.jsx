@@ -16,7 +16,7 @@ function HeroBanner() {
 
   return (
     <div className="flex flex-col lg:flex-row-reverse sm:max-w-screen h-screen">
-      <div className="flex justify-center items-center lg:w-1/2 p-0">
+      <div className="flex justify-center items-center lg:w-1/2 pt-12 md:pt-3">
         <img
           src="/src/assets/headshot-test-1.png"
           className="h-[300px] md:h-full w-auto
@@ -36,7 +36,7 @@ function HeroBanner() {
         </motion.h1>
         <motion.p
           variants={fadeInLeft}
-          className="text-base text-justify text-balance hyphens-auto sm:text-lg md:text-xl lg:text-2xl bg-white"
+          className="text-base text-justify text-balance hyphens-auto sm:text-lg md:text-xl lg:text-2xl bg-white my-6 md:my-12"
         >
           I build creative and responsive websites with JavaScript, React and
           Next.js. Passionate about creating clean, user-friendly interfaces
@@ -45,13 +45,10 @@ function HeroBanner() {
           impactful web experiences. Explore my projects below, I’d love to hear
           your feedback!
         </motion.p>
-        <motion.div className="my-1.5 md:my-2.5" variants={fadeInLeft}>
-          <Button>View CV</Button>
-        </motion.div>
 
         <motion.p
           variants={fadeInLeft}
-          className="italic text-sm text-gray-600 pb-2 bg-white"
+          className="italic text-sm text-gray-600 pb-2 bg-white "
         >
           Click to multiply the particles — drag to move!
         </motion.p>

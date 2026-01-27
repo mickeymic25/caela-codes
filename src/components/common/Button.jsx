@@ -4,8 +4,10 @@ const Button = ({ children, ...props }) => {
   return (
     <motion.button
       {...props}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 1.1 }}
+      whileHover={{ scale: 1.3 }}
+      whileTap={{ scale: 1.3 }}
+      whileFocus={{ scale: 1.3 }}
+      transition={{ type: "spring", stiffness: 300 }}
       className="
         bg-orange-100 
         rounded-lg 
