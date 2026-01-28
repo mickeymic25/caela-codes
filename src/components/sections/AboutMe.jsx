@@ -97,6 +97,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-{
-  /*curious, collaborative and creative*/
-}

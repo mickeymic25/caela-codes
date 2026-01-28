@@ -32,7 +32,7 @@ function Hobbies() {
                 alt={hobby.alt}
                 className="w-full object-cover rounded-2xl"
               />
-              {/*Overlay*/}
+
               <motion.div
                 className="absolute inset-0 bg-black/70 opacity-0  flex items-center justify-center p-1 md:p-4 rounded-2xl"
                 initial={{ opacity: 0 }}

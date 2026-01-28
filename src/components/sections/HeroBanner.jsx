@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import Button from "../common/Button";
+import headshot from "../../assets/headshot-test-1.png";
 
 function HeroBanner() {
   const heroBannerContainer = {
@@ -18,7 +18,7 @@ function HeroBanner() {
     <div className="flex flex-col lg:flex-row-reverse sm:max-w-screen h-screen">
       <div className="flex justify-center items-center lg:w-1/2 pt-12 md:pt-3">
         <img
-          src="/src/assets/headshot-test-1.png"
+          src={headshot}
           className="h-[300px] md:h-full w-auto
           
           "
