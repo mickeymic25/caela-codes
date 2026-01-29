@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import headshot from "../../assets/headshot-test-1.png";
+import headshot from "../../assets/headshot.png";
 
 function HeroBanner() {
   const heroBannerContainer = {
