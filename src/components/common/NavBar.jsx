@@ -1,7 +1,7 @@
 import { IoMdClose } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
-import caelacodeslogo from "../../assets/caelacodes-high-resolution-logo-transparent.png";
+import caelacodeslogo from "../../assets/caelacodes_logo.png";
 
 function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
