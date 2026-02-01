@@ -34,6 +34,12 @@ function HeroBanner() {
         <motion.h1 variants={fadeInLeft} className="text-2xl md:text-4xl mb-3">
           Hi, my name is Micaela
         </motion.h1>
+
+        <motion.h4 variants={fadeInLeft} className="text-2xl md:text-4xl mb-3">
+          Aspiring Front-end Developer
+        </motion.h4>
+        
+        
         <motion.p
           variants={fadeInLeft}
           className="text-base text-justify text-balance hyphens-auto sm:text-lg md:text-xl lg:text-2xl bg-white my-6 md:my-12"
