@@ -8,6 +8,8 @@ Vite – Fast development server and build tool
 Tailwind CSS – Utility-first styling for rapid UI development
 
 ✨ Features
+
+
 Responsive design (mobile-first)
 Clean and modern UI
 Fast load times with Vite
