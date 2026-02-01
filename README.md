@@ -1,4 +1,4 @@
-#CaelaCodes Portfolio Website
+##CaelaCodes Portfolio Website
 
 This is my personal portfolio website built to showcase my projects, skills and experience as a developer. It’s fast, modern and fully responsive, built with a lightweight and efficient tech stack.
 
@@ -27,8 +27,11 @@ Easy to customize and extend
 
 
 '''📂 Project Structure
+
 ├── public/
+
 │ └── assets/
+
 ├── src/
 │ ├── assets/
 │ ├── components/
