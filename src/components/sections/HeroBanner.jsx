@@ -35,9 +35,9 @@ function HeroBanner() {
           Hi, my name is Micaela
         </motion.h1>
 
-        <motion.h6 variants={fadeInLeft} className="text-2xl md:text-4xl mb-3">
+        <motion.p variants={fadeInLeft} className="text-2xl md:text-4xl mb-3">
           Aspiring Front-end Developer
-        </motion.h6>
+        </motion.p>
         
         
         <motion.p
