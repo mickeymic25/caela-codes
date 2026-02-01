@@ -50,7 +50,7 @@ export const projectDetails = [
     image: "/assets/portfolio_screenshot.png",
     title: "Portfolio Website",
     description: "A collection of projects showcasing ideas brought to life.",
-    button: [{ icon: FaGithub, link: "#" }],
+    button: [{ icon: FaGithub, link: "https://github.com/mickeymic25/caela-codes" }],
     tools: [
       { icon: "/assets/javascript.png", alt: "JavaScript icon" },
       { icon: "/assets/react.png", alt: "React icon" },
