@@ -76,8 +76,6 @@ npm run dev
 
 The app will be running at:
 ```
-bash
-
 http://localhost:5173
 ```
 
