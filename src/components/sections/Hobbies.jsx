@@ -16,7 +16,7 @@ function Hobbies() {
         </p>
 
         <p className="md:hidden">
-          Click and hold on the image to find out more about he image!
+          Click and hold the image to find out more!
         </p>
       </div>
 
