@@ -2,6 +2,7 @@
 
 This is my personal portfolio website built to showcase my projects, skills and experience as a front-end developer. It’s fast, modern and fully responsive, built with a lightweight and efficient tech stack.
 
+Live site : https://caela-codes-portfolio-website.vercel.app/
 ## 🚀 Tech Stack
 JavaScript – Core language
 
