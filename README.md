@@ -1,9 +1,8 @@
-##CaelaCodes Portfolio Website
+## CaelaCodes Portfolio Website
 
-This is my personal portfolio website built to showcase my projects, skills and experience as a developer. It’s fast, modern and fully responsive, built with a lightweight and efficient tech stack.
+This is my personal portfolio website built to showcase my projects, skills and experience as a front-end developer. It’s fast, modern and fully responsive, built with a lightweight and efficient tech stack.
 
-🚀 Tech Stack
-
+## 🚀 Tech Stack
 JavaScript – Core language
 
 React – Component-based UI development
@@ -12,7 +11,7 @@ Vite – Fast development server and build tool
 
 Tailwind CSS – Utility-first styling for rapid UI development
 
-✨ Features
+## ✨ Features
 Responsive design (mobile-first)
 
 Clean and modern UI
@@ -25,13 +24,10 @@ Styled entirely with Tailwind CSS
 
 Easy to customize and extend
 
-
-'''📂 Project Structure
-
+## 📂 Project Structure
+```
 ├── public/
-
 │ └── assets/
-
 ├── src/
 │ ├── assets/
 │ ├── components/
@@ -44,6 +40,44 @@ Easy to customize and extend
 ├── package-lock.json
 ├── package.json
 ├── README.md
-└── vite.config.js'''
+└── vite.config.js
+```
 
+## 🛠️ Installation & Setup
 
+Clone the repository:
+```
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+Navigate to the project folder:
+```
+cd your-repo-name
+```
+
+Install dependencies:
+```
+npm install
+```
+
+Start the development server:
+```
+npm run dev
+```
+
+The app will be running at:
+```
+http://localhost:5173
+```
+
+## 📦 Build for Production
+
+To create a production build:
+```
+npm run build
+```
+
+To preview the production build locally:
+```
+npm run preview
+```
