@@ -11,8 +11,14 @@ Tailwind CSS – Utility-first styling for rapid UI development
 
 
 Responsive design (mobile-first)
+
+
 Clean and modern UI
+
+
 Fast load times with Vite
+
+
 Reusable React components
 Styled entirely with Tailwind CSS
 Easy to customize and extend
