@@ -14,12 +14,13 @@ function Cards({ image, title, description, button, tools }) {
         },
       }}
       whileHover={{ scale: 1.1 }}
+      viewport={{ once: true }}
       className="project-cards flex sm:flex-row md:flex-col border w-full h-full sm:max-w-sm md:max-w-md lg:max-w-lg  bg-white border-gray-50 rounded-4xl shadow-lg  shadow-[#FFBB5C]"
     >
       <div className="project-content flex flex-col flex-grow p-6">
         <img
           src={image}
-          className="object-cover rounded-xl h-full md:h-[218px] w-full  bg-orange-100"
+          className="object-cover rounded-xl w-full h-[200px] md:h-[218px] lg:h-[250px] bg-orange-100"
         />
         <h2 className=" font-bold mt-2 mb-2">{title}</h2>
         <p>{description}</p>

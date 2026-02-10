@@ -15,13 +15,11 @@ function HeroBanner() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row-reverse sm:max-w-screen h-screen">
+    <div className="flex flex-col lg:flex-row-reverse sm:max-w-screen min-h-screen">
       <div className="flex justify-center items-center lg:w-1/2 pt-12 md:pt-3">
         <img
           src={headshot}
-          className="h-[300px] md:h-full w-auto
-          
-          "
+          className="h-64 md:h-80 lg:h-[80vh] w-auto object-contain"
         />
       </div>
       <motion.div
@@ -29,27 +27,28 @@ function HeroBanner() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="text-left m-4  md:mt-20 lg:w-1/2  lg:mt-72"
+        className="flex flex-col justify-center text-left m-4 md:mt-12 lg:mt-0 lg:w-1/2"
       >
-        <motion.h1 variants={fadeInLeft} className="text-2xl md:text-4xl mb-3">
+        <motion.h1
+          variants={fadeInLeft}
+          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3"
+        >
           Hi, my name is Micaela
         </motion.h1>
 
-        <motion.p variants={fadeInLeft} className="text-2xl md:text-4xl mb-3">
-          Aspiring Front-end Developer
-        </motion.p>
-        
-        
         <motion.p
           variants={fadeInLeft}
-          className="text-base text-justify text-balance hyphens-auto sm:text-lg md:text-xl lg:text-2xl bg-white my-6 md:my-12"
+          className="text-xl sm:text-2xl md:text-3xl font-medium mb-4"
         >
-          I build creative and responsive websites with JavaScript, React and
-          Next.js. Passionate about creating clean, user-friendly interfaces
-          that look great and work seamlessly across all devices, I’m committed
-          to continuous learning and collaboration to deliver engaging,
-          impactful web experiences. Explore my projects below, I’d love to hear
-          your feedback!
+          Aspiring Front-end Developer
+        </motion.p>
+
+        <motion.p
+          variants={fadeInLeft}
+          className="text-base sm:text-lg md:text-xl lg:text-2xl text-left max-w-prose my-6 md:my-8 bg-white "
+        >
+          Creating responsive, clean web experiences with JavaScript, React,
+          Next.js, and WordPress.
         </motion.p>
 
         <motion.p

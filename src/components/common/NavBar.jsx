@@ -14,8 +14,8 @@ function NavBar() {
           <img src={caelacodeslogo} className="h-10" />
         </div>
 
-        <div className="hidden md:flex md:pl-2">
-          <ul className="md:flex md:m-auto md:gap-x-36 ">
+        <div className="hidden md:flex md:gap-8 lg:gap-16 items-center">
+          <ul className="flex gap-4 md:gap-6 lg:gap-8">
             <li>
               <a href="#about" className={linkStyles}>
                 About Me
