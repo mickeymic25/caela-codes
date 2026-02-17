@@ -16,7 +16,7 @@ function HeroBanner() {
 
   return (
     <div className="flex flex-col lg:flex-row-reverse sm:max-w-screen min-h-screen">
-      <div className="flex justify-center items-center lg:w-1/2 pt-12 md:pt-3">
+      <div className="flex justify-center items-center lg:w-1/2 pt-18 md:pt-3">
         <img
           src={headshot}
           className="h-64 md:h-80 lg:h-[80vh] w-auto object-contain"
@@ -31,24 +31,24 @@ function HeroBanner() {
       >
         <motion.h1
           variants={fadeInLeft}
-          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3"
+          className="text-3xl sm:text-4xl md:text-6xl font-bold  mb-3"
         >
           Hi, my name is Micaela
         </motion.h1>
 
         <motion.p
           variants={fadeInLeft}
-          className="text-xl sm:text-2xl md:text-3xl font-medium mb-4"
+          className="text-xl sm:text-2xl md:text-3xl  mb-4"
         >
-          Aspiring Front-end Developer
+          Front-end Developer
         </motion.p>
 
         <motion.p
           variants={fadeInLeft}
           className="text-base sm:text-lg md:text-xl lg:text-2xl text-left max-w-prose my-6 md:my-8 bg-white "
         >
-          Creating responsive, clean web experiences with JavaScript, React,
-          Next.js, and WordPress.
+          Building responsive web applications with React, Next.js, JavaScript
+          and WordPress, with a focus on clean UI and user-centred design.
         </motion.p>
 
         <motion.p
