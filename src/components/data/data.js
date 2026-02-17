@@ -3,27 +3,18 @@ import { FaDesktop } from "react-icons/fa";
 
 export const projectDetails = [
   {
-    image: "/assets/quizquest.PNG",
-    title: "QuizQuest",
+    image: "/assets/bfp.PNG",
+    title: "Barnet Food Partnership Website",
     description:
-      "A fast trivia game with points for correct answers and deductions for wrong ones.",
-    button: [
-      {
-        icon: FaDesktop,
-        link: "https://quizquest-app-micaela.vercel.app/",
-      },
-      {
-        icon: FaGithub,
-        link: "https://github.com/mickeymic25/quiz-app",
-      },
-    ],
+      "A user-friendly WordPress website built to connect Barnet residents with local food support services.",
+    button: [{ icon: FaDesktop, link: "https://barnetfoodpartnership.org/" }],
     tools: [
-      { icon: "/assets/javascript.png", alt: "JavaScript icon" },
-      { icon: "/assets/react.png", alt: "React icon" },
-      { icon: "/assets/nextjs.png", alt: "Next.JS icon" },
-      { icon: "/assets/tailwindcss.png", alt: "Tailwind CSS logo" },
+      { icon: "/assets/wordpress.png", alt: "Wordpress logo" },
+      { icon: "/assets/css.png", alt: "CSS logo" },
+      { icon: "/assets/elementor.png", alt: "Elementor logo" },
     ],
   },
+
   {
     image: "/assets/pph.PNG",
     title: "PulsePoint Health",
@@ -47,15 +38,22 @@ export const projectDetails = [
     ],
   },
   {
-    image: "/assets/portfolio_screenshot.png",
-    title: "Portfolio Website",
-    description: "A collection of projects showcasing ideas brought to life.",
-    button: [{ icon: FaGithub, link: "https://github.com/mickeymic25/caela-codes" }],
+    image: "/assets/easyeats.PNG",
+    title: "EasyEats",
+    description:
+      "EasyEats is a single-page application designed to explore and order food around the US.",
+    button: [
+      { icon: FaDesktop, link: "https://easy-eats-cwi6.vercel.app/" },
+      {
+        icon: FaGithub,
+        link: "https://github.com/chingu-voyages/v50-tier2-team-13",
+      },
+    ],
     tools: [
       { icon: "/assets/javascript.png", alt: "JavaScript icon" },
       { icon: "/assets/react.png", alt: "React icon" },
+      { icon: "/assets/nextjs.png", alt: "Next.JS icon" },
       { icon: "/assets/tailwindcss.png", alt: "Tailwind CSS logo" },
-      { icon: "/assets/vite.png", alt: "Vite icon" },
     ],
   },
   {
@@ -78,27 +76,18 @@ export const projectDetails = [
     ],
   },
   {
-    image: "/assets/bfp.PNG",
-    title: "Barnet Food Partnership Website",
+    image: "/assets/quizquest.PNG",
+    title: "QuizQuest",
     description:
-      "A user-friendly WordPress website built to connect Barnet residents with local food support services.",
-    button: [{ icon: FaDesktop, link: "https://barnetfoodpartnership.org/" }],
-    tools: [
-      { icon: "/assets/wordpress.png", alt: "Wordpress logo" },
-      { icon: "/assets/css.png", alt: "CSS logo" },
-      { icon: "/assets/elementor.png", alt: "Elementor logo" },
-    ],
-  },
-  {
-    image: "/assets/easyeats.PNG",
-    title: "EasyEats",
-    description:
-      "EasyEats is a single-page application designed to explore and order food around the US.",
+      "A fast trivia game with points for correct answers and deductions for wrong ones.",
     button: [
-      { icon: FaDesktop, link: "https://easy-eats-cwi6.vercel.app/" },
+      {
+        icon: FaDesktop,
+        link: "https://quizquest-app-micaela.vercel.app/",
+      },
       {
         icon: FaGithub,
-        link: "https://github.com/chingu-voyages/v50-tier2-team-13",
+        link: "https://github.com/mickeymic25/quiz-app",
       },
     ],
     tools: [
@@ -106,6 +95,20 @@ export const projectDetails = [
       { icon: "/assets/react.png", alt: "React icon" },
       { icon: "/assets/nextjs.png", alt: "Next.JS icon" },
       { icon: "/assets/tailwindcss.png", alt: "Tailwind CSS logo" },
+    ],
+  },
+  {
+    image: "/assets/portfolio_screenshot.png",
+    title: "Portfolio Website",
+    description: "A collection of projects showcasing ideas brought to life.",
+    button: [
+      { icon: FaGithub, link: "https://github.com/mickeymic25/caela-codes" },
+    ],
+    tools: [
+      { icon: "/assets/javascript.png", alt: "JavaScript icon" },
+      { icon: "/assets/react.png", alt: "React icon" },
+      { icon: "/assets/tailwindcss.png", alt: "Tailwind CSS logo" },
+      { icon: "/assets/vite.png", alt: "Vite icon" },
     ],
   },
 ];

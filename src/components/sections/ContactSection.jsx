@@ -10,10 +10,9 @@ function ContactSection() {
     >
       <h1 className="contact-title py-3">Contact me </h1>
       <p className="text-wrap text-left text-base bg-white sm:text-lg md:text-xl max-w-3/4">
-        I am currently open to entry-level software development roles and
-        collaboration opportunities. Whether you're building something exciting
-        or looking for a motivated team member, I would love to hear from you!
-        Feel free to reach out via email, LinkedIn, or GitHub.
+        I am currently open to opportunities. Whether you're building something
+        exciting or looking for a motivated team member, I would love to hear
+        from you! Feel free to reach out via email, LinkedIn, or GitHub.
       </p>
       <div className="flex gap-14">
         <motion.a

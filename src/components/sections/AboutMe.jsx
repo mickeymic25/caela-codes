@@ -22,27 +22,19 @@ function AboutMe() {
               },
             }}
             viewport={{ once: true }}
-            className="text-base sm:text-lg md:text-xl md:w-3/5 p-9   bg-[#FFE0BB]  space-y-8 rounded-tr-[5rem] rounded-bl-[5rem] text-left md:p-10"
+            className="flex flex-col justify-center items-center text-base sm:text-lg md:text-xl md:w-3/5 p-9   bg-[#FFE0BB]  space-y-8 rounded-tr-[5rem] rounded-bl-[5rem] text-left md:p-10"
           >
-            <p>
-              My journey into tech began with a curiosity about how websites
-              worked and quickly grew into a passion for creating them myself. I
-              was drawn to the way front-end development blends creativity with
-              problem-solving and I’ve since built up strong skills in HTML,
-              CSS, JavaScript, React and WordPress. From sketching out user
-              flows in Figma to coding responsive layouts with Tailwind CSS, I
-              enjoy every step of bringing a digital idea to life.
+            <p className="">
+              I enjoy turning ideas into responsive, user-focused websites, from
+              designing flows to coding layouts. I’ve contributed to real
+              projects from charity sites to collaborative front-end apps in
+              agile, remote teams. With a background in administration and
+              project-focused roles, I bring strong communication, organization
+              and teamwork to every project. I’m passionate about helping out,
+              learning and building clean, accessible digital experiences that
+              make an impact.
             </p>
-            <p>
-              I’ve applied these skills to real projects, from building charity
-              websites to collaborating on front-end apps in agile, remote
-              teams. I love the challenge of translating user needs into clean,
-              accessible interfaces. With a background in administration and
-              project-focused roles, I bring strong communication, organisation,
-              and teamwork into every project. I’m eager to continue growing in
-              a hands-on apprenticeship where I can contribute, learn from
-              experienced developers and help build impactful digital products.
-            </p>
+
             <p>
               If you would like further information on my experience, take a
               look at{" "}
