@@ -20,7 +20,7 @@ function Cards({ image, title, description, button, tools }) {
       <div className="project-content flex flex-col flex-grow p-6">
         <img
           src={image}
-          className="object-contain rounded-xl w-full h-[200px] md:h-[218px] lg:h-[250px] bg-orange-100"
+          className="object-cover rounded-xl w-full h-[200px] md:h-[218px] lg:h-[250px] bg-orange-100"
         />
         <h2 className=" font-bold mt-2 mb-2">{title}</h2>
         <p>{description}</p>

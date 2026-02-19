@@ -39,7 +39,7 @@ function AboutMe() {
               If you would like further information on my experience, take a
               look at{" "}
               <a
-                href="/2026_ Micaela_CV.pdf"
+                href="/2026_CV_ Micaela_Opoku_Mensah.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 hover:text-orange-700 underline transition-colors font-semibold"
