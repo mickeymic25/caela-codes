@@ -40,7 +40,7 @@ function HeroBanner() {
           variants={fadeInLeft}
           className="text-xl sm:text-2xl md:text-3xl  mb-4"
         >
-          Front-end Developer
+          Front-End Developer
         </motion.p>
 
         <motion.p
