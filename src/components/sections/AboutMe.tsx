@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { skillLogo } from "../data/data";
+import { skillLogo } from "../data/data.ts";
 
 function AboutMe() {
   return (

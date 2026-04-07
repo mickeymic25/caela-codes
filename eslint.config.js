@@ -2,13 +2,15 @@ import js from "@eslint/js";
 import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
+import tsParser from "@typescript-eslint/parser";
 // The `motion` import is used via JSX (<motion.div />), but ESLint may incorrectly flag it as unused.
 // Allow `motion` identifier
 export default [
   { ignores: ["dist"] },
   {
-    files: ["**/*.{js,jsx}"],
+    files: ["**/*.{ts,tsx}"],
     languageOptions: {
+      parser: tsParser,
       ecmaVersion: 2020,
       globals: globals.browser,
       parserOptions: {
