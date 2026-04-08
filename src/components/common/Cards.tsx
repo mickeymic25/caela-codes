@@ -5,12 +5,13 @@ import type { Button, Tool } from "../types/projects";
 
 interface CardProps {
   image: string;
+  alt: string;
   title: string;
   description: string;
   button: Button[];
   tools: Tool[];
 }
-function Cards({ image, title, description, button, tools }: CardProps) {
+function Cards({ image, alt, title, description, button, tools }: CardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
@@ -29,6 +30,7 @@ function Cards({ image, title, description, button, tools }: CardProps) {
       <div className="project-content flex flex-col flex-grow p-6">
         <img
           src={image}
+          alt={alt}
           className="object-cover rounded-xl w-full h-[200px] md:h-[218px] lg:h-[250px] bg-orange-100"
         />
         <h2 className=" font-bold mt-2 mb-2">{title}</h2>
