@@ -1,7 +1,16 @@
 import { motion } from "framer-motion";
-import Button from "./Button";
+import Buttons from "./Button";
 
-function Cards({ image, title, description, button, tools }) {
+import type { Button, Tool } from "../types/projects";
+
+interface CardProps {
+  image: string;
+  title: string;
+  description: string;
+  button: Button[];
+  tools: Tool[];
+}
+function Cards({ image, title, description, button, tools }: CardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
@@ -40,7 +49,7 @@ function Cards({ image, title, description, button, tools }) {
             button.map((btn, i) => {
               const Icon = btn.icon;
               return (
-                <Button
+                <Buttons
                   key={i}
                   href={btn.link}
                   onClick={() => {
@@ -48,7 +57,7 @@ function Cards({ image, title, description, button, tools }) {
                   }}
                 >
                   <Icon className="inline-block size-4 lg:size-6" />
-                </Button>
+                </Buttons>
               );
             })}
         </div>

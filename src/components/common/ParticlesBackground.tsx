@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-
+import type { Container } from "@tsparticles/engine";
+import { MoveDirection, OutMode } from "@tsparticles/engine";
 const ParticlesBackground = () => {
   const [init, setInit] = useState(false);
 
@@ -13,7 +14,7 @@ const ParticlesBackground = () => {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
+  const particlesLoaded = async (container?: Container): Promise<void> => {
     console.log(container);
   };
 
@@ -58,10 +59,10 @@ const ParticlesBackground = () => {
           width: 1,
         },
         move: {
-          direction: "none",
+          direction: MoveDirection.none,
           enable: true,
           outModes: {
-            default: "bounce",
+            default: OutMode.bounce,
           },
           random: false,
           speed: 2,
@@ -85,7 +86,7 @@ const ParticlesBackground = () => {
       },
       detectRetina: true,
     }),
-    []
+    [],
   );
 
   if (init) {

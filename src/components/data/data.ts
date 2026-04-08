@@ -1,7 +1,11 @@
 import { FaGithub } from "react-icons/fa";
 import { FaDesktop } from "react-icons/fa";
 
-export const projectDetails = [
+import type { Projects } from "../types/projects";
+import type { Hobbies } from "../types/hobby";
+import type { Skills } from "../types/skills";
+
+export const projectDetails: Projects[] = [
   {
     image: "/assets/bfp.PNG",
     title: "Barnet Food Partnership Website",
@@ -113,7 +117,7 @@ export const projectDetails = [
   },
 ];
 
-export const skillLogo = [
+export const skillLogo: Skills[] = [
   { image: "/assets/html.png", title: "HTML", alt: "HTML Logo" },
   { image: "/assets/css.png", title: "CSS", alt: "CSS Logo" },
   {
@@ -133,7 +137,7 @@ export const skillLogo = [
   { image: "/assets/wordpress.png", title: "Wordpress", alt: "Wordpress Logo" },
 ];
 
-export const hobbyPhoto = [
+export const hobbyPhoto: Hobbies[] = [
   {
     image: "/assets/penapalace.jpg",
     description: "UNESCO World Heritage site, Pena Palace in Portugal",

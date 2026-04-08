@@ -1,6 +1,10 @@
 import { motion } from "motion/react";
-
-const Button = ({ children, ...props }) => {
+interface ButtonProps {
+  href?: string;
+  children: React.ReactNode;
+  onClick: () => void;
+}
+const Buttons = ({ children, ...props }: ButtonProps) => {
   return (
     <motion.button
       {...props}
@@ -30,4 +34,4 @@ const Button = ({ children, ...props }) => {
   );
 };
 
-export default Button;
+export default Buttons;

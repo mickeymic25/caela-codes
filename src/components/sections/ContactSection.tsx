@@ -20,7 +20,7 @@ function ContactSection() {
           whileTap={{ scale: 1.5 }}
           transition={{ type: "spring", stiffness: 300 }}
           href="mailto:"
-          alt="e-mail envelope icon"
+          aria-label="e-mail envelope icon"
         >
           <FaEnvelope color="#E9A319" className="w-10 h-[100px]" />
         </motion.a>
@@ -30,7 +30,7 @@ function ContactSection() {
           whileFocus={{ scale: 1.5 }}
           transition={{ type: "spring", stiffness: 300 }}
           href="https://www.linkedin.com/in/micaela-opoku-mensah/"
-          alt="Linkedin logo"
+          aria-label="Linkedin logo"
         >
           <FaLinkedin color="#E9A319" className="w-10 h-[100px]" />
         </motion.a>
@@ -40,7 +40,7 @@ function ContactSection() {
           whileTap={{ scale: 1.5 }}
           transition={{ type: "spring", stiffness: 300 }}
           href="https://github.com/mickeymic25"
-          alt="Github logo"
+          aria-label="Github logo"
         >
           <FaGithub color="#E9A319" className="w-10 h-[100px]" />
         </motion.a>

@@ -5,7 +5,7 @@ import caelacodeslogo from "../../assets/caelacodes_logo.png";
 
 function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const linkStyles =
+  const linkStyles: string =
     "hover:border-[#e9a319] hover:border-b-3 active:border-[#e9a319] active:border-b-3 focus:border-[#e9a319] focus:border-b-3 ";
   return (
     <>

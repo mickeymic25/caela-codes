@@ -1,5 +1,5 @@
 import HeroBanner from "./components/sections/HeroBanner";
-import {} from "./index.css";
+
 import NavBar from "./components/common/NavBar";
 import AboutMe from "./components/sections/AboutMe";
 import Projects from "./components/sections/Projects";

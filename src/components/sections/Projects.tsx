@@ -1,5 +1,5 @@
-import Card from "../common/Cards";
-import { projectDetails } from "../data/data.js";
+import Cards from "../common/Cards.tsx";
+import { projectDetails } from "../data/data.ts";
 
 function Projects() {
   return (
@@ -9,12 +9,12 @@ function Projects() {
     >
       <h1 className="projects-title flex justify-center py-3 ">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4 justify-items-center">
-        <Card {...projectDetails[0]} />
-        <Card {...projectDetails[1]} />
-        <Card {...projectDetails[2]} />
-        <Card {...projectDetails[3]} />
-        <Card {...projectDetails[4]} />
-        <Card {...projectDetails[5]} />
+        <Cards {...projectDetails[0]} />
+        <Cards {...projectDetails[1]} />
+        <Cards {...projectDetails[2]} />
+        <Cards {...projectDetails[3]} />
+        <Cards {...projectDetails[4]} />
+        <Cards {...projectDetails[5]} />
       </div>
     </section>
   );
