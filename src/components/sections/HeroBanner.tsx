@@ -20,6 +20,7 @@ function HeroBanner() {
         <img
           src={headshot}
           className="h-64 md:h-80 lg:h-[80vh] w-auto object-contain"
+          alt="3D cartoon image of a girl typing"
         />
       </div>
       <motion.div

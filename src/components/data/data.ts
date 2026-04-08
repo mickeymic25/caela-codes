@@ -8,6 +8,7 @@ import type { Skills } from "../types/skills";
 export const projectDetails: Projects[] = [
   {
     image: "/assets/bfp.PNG",
+    alt: "Screenshot of Barnet Food Partnership website homepage showing navigation bar, banner image of gardening team.",
     title: "Barnet Food Partnership Website",
     description:
       "A user-friendly WordPress website built to connect Barnet residents with local food support services.",
@@ -21,6 +22,7 @@ export const projectDetails: Projects[] = [
 
   {
     image: "/assets/pph.PNG",
+    alt: "Screenshot of PulsePoint Health website showing a doctor  with a patient and booking features",
     title: "PulsePoint Health",
     description:
       "A responsive healthcare platform for browsing doctors and booking services.",
@@ -43,6 +45,7 @@ export const projectDetails: Projects[] = [
   },
   {
     image: "/assets/easyeats.PNG",
+    alt: "Screenshot of EasyEats website showing a map of available food options",
     title: "EasyEats",
     description:
       "EasyEats is a single-page application designed to explore and order food around the US.",
@@ -62,6 +65,7 @@ export const projectDetails: Projects[] = [
   },
   {
     image: "/assets/splitmate.PNG",
+    alt: "Screenshot of SplitMate website login",
     title: "SplitMate",
     description:
       "A group expense-splitting app designed to make sharing costs with friends simple and stress-free.",
@@ -81,6 +85,7 @@ export const projectDetails: Projects[] = [
   },
   {
     image: "/assets/quizquest.PNG",
+    alt: "Screenshot of QuizQuest website showing a trivia game interface",
     title: "QuizQuest",
     description:
       "A fast trivia game with points for correct answers and deductions for wrong ones.",
@@ -103,6 +108,7 @@ export const projectDetails: Projects[] = [
   },
   {
     image: "/assets/portfolio_screenshot.png",
+    alt: "Screenshot of CaelaCodes portfolio website",
     title: "Portfolio Website",
     description: "A collection of projects showcasing ideas brought to life.",
     button: [

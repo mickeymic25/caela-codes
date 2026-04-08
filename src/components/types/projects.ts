@@ -12,6 +12,7 @@ export type Tool = {
 
 export type Projects = {
   image: string;
+  alt: string;
   title: string;
   description: string;
   button: Button[];

@@ -11,7 +11,7 @@ function NavBar() {
     <>
       <nav className="flex justify-between w-full z-50 fixed shadow-sm bg-white p-3">
         <div>
-          <img src={caelacodeslogo} className="h-10" />
+          <img src={caelacodeslogo} className="h-10" alt="CaelaCodes logo" />
         </div>
 
         <div className="hidden md:flex md:gap-8 lg:gap-16 items-center">
