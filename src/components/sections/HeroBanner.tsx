@@ -41,15 +41,16 @@ function HeroBanner() {
           variants={fadeInLeft}
           className="text-xl sm:text-2xl md:text-3xl  mb-4"
         >
-          Front-End Developer
+          Frontend Developer
         </motion.p>
 
         <motion.p
           variants={fadeInLeft}
           className="text-base sm:text-lg md:text-xl lg:text-2xl text-left max-w-prose my-6 md:my-8 bg-white "
         >
-          Building responsive web applications with React, Next.js, JavaScript
-          and WordPress, with a focus on clean UI and user-centred design.
+          Building responsive web applications with React, Next.js, JavaScript,
+          TypeScript and WordPress, with a focus on clean UI and user-centred
+          design.
         </motion.p>
 
         <motion.p
