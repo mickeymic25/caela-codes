@@ -38,6 +38,10 @@ export const projectDetails: Projects[] = [
     ],
     tools: [
       { icon: "/assets/javascript.png", alt: "JavaScript icon" },
+      {
+        icon: "/assets/ts.png",
+        alt: "TypeScript Logo",
+      },
       { icon: "/assets/react.png", alt: "React icon" },
       { icon: "/assets/nextjs.png", alt: "Next.JS icon" },
       { icon: "/assets/tailwindcss.png", alt: "Tailwind CSS logo" },
@@ -116,6 +120,10 @@ export const projectDetails: Projects[] = [
     ],
     tools: [
       { icon: "/assets/javascript.png", alt: "JavaScript icon" },
+      {
+        icon: "/assets/ts.png",
+        alt: "TypeScript Logo",
+      },
       { icon: "/assets/react.png", alt: "React icon" },
       { icon: "/assets/tailwindcss.png", alt: "Tailwind CSS logo" },
       { icon: "/assets/vite.png", alt: "Vite icon" },
@@ -131,15 +139,20 @@ export const skillLogo: Skills[] = [
     title: "JavaScript",
     alt: "JavaScript Logo",
   },
+  {
+    image: "/assets/ts.png",
+    title: "TypeScript",
+    alt: "TypeScript Logo",
+  },
   { image: "/assets/react.png", title: "React", alt: "React Logo" },
   { image: "/assets/nextjs.png", title: "Next.js", alt: "Next.js Logo" },
+
   {
     image: "/assets/tailwindcss.png",
     title: "Tailwind CSS",
     alt: "Tailwind CSS Logo",
   },
   { image: "/assets/figma.png", title: "Figma", alt: "Figma Logo" },
-  { image: "/assets/shadcn.png", title: "Shadcn", alt: "Shadcn Logo" },
   { image: "/assets/wordpress.png", title: "Wordpress", alt: "Wordpress Logo" },
 ];
 
